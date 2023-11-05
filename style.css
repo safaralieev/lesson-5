@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ 
+.container{
+    padding: 0 100px;
+    
+}
+
+#top .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+   
+}
+
+#top .menu {
+    display: flex;
+    gap: 40px;
+    align-items: baseline;
+    
+
+}
+
+#top .contact {
+    display: flex;
+    gap: 20px;
+    
+ 
+
+}
+
+#top i{
+    margin-right: 5px;
+
+}
+#top .menu nav .first{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+
+}
+
+#top .menu .logo {
+    color: #6785FF;
+    font-size: 30px
+}
+
+#top .contact .phone {
+    color: #6785FF;
+    font-size: 20px;
+}
+#top .contact .phone span{
+    margin-left: 5px;
+    margin-right: 5px;
+    color: rgb(175, 232, 213);
+}
+#top .contact .other {
+    background-color: #6785FF;
+    color: white;
+
+}
+
+#top .menu nav ul li:hover {
+    color: #6785FF;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+#top .menu nav ul .active {
+    color: #6785FF;
+}
+
+#picture {
+    background:  linear-gradient( to right,#6785FF,#8567ff00),url(h1_hero.png);
+
+
+
+}
+#top .menu nav .blog{
+    list-style: none;
+    padding: 15px 10px;
+    color: white;
+    display: none;
+background-color: #6785FF ;
+
+}
+
+
+  #top .menu nav:hover .blog{
+    display: block;
+    
+   
+}
+#top .menu nav .blog:hover{
+    color: white;
+}
+#top .menu nav .blog li:hover{
+padding-left: 15px;
+color: white;
+}
+#picture{
+    min-height: 100vh; 
+    display: flex;
+
+   flex-direction: column;
+   justify-content: center;
+}
+#picture h1{
+    font-size: 60px;
+    color: white;
+    width: 45%;
+}
+#picture p{
+    font-size: 25px;
+    color: white;
+    padding: 15px 0 ;
+}
+#picture button{
+    font-size: 15px;
+    border-radius: 30px;
+    background-color: #6785FF ;
+    border: none;
+ transition: all 1s;
+}
+#picture button a{
+    color: white;
+text-decoration: none;
+padding: 15px 20px;
+display: block;
+
+}
+#picture button:hover{
+    background-color: #0b35dd;
+    
+}
+#picture .text{
+    
+    
+
+}
+
+
+
+           
